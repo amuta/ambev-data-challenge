@@ -1,0 +1,33 @@
+/home/andre/anaconda3/lib/python3.7/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.24) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+/home/andre/anaconda3/lib/python3.7/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.24) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+[I 19:09:16.517 NotebookApp] [nb_conda_kernels] enabled, 5 kernels found
+[I 19:09:16.522 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 19:09:16.752 NotebookApp] JupyterLab extension loaded from /home/andre/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 19:09:16.752 NotebookApp] JupyterLab application directory is /home/andre/anaconda3/share/jupyter/lab
+[I 19:09:16.965 NotebookApp] [nb_conda] enabled
+[I 19:09:16.965 NotebookApp] Serving notebooks from local directory: /home/andre/Study/DataChallenge/Ambev/ambev_data_challenge
+[I 19:09:16.965 NotebookApp] The Jupyter Notebook is running at:
+[I 19:09:16.965 NotebookApp] http://localhost:8888/?token=7ab5b844cecc12bc87101bb1e44290e4139fb73c7764d7a9
+[I 19:09:16.965 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:09:16.983 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=7ab5b844cecc12bc87101bb1e44290e4139fb73c7764d7a9
+[I 19:09:17.207 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[W 19:09:22.419 NotebookApp] Notebook notebooks/02-modelo-previsao-meta.ipynb is not trusted
+[I 19:09:22.863 NotebookApp] Kernel started: f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 19:09:23.359 NotebookApp] Adapting to protocol v5.1 for kernel f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 19:09:23.482 NotebookApp] Kernel started: 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[I 19:09:23.863 NotebookApp] Adapting to protocol v5.1 for kernel 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[I 19:11:23.146 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[W 19:11:23.147 NotebookApp] Notebook notebooks/02-modelo-previsao-meta.ipynb is not trusted
+[I 19:11:23.501 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:13:23.503 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:14:22.292 NotebookApp] Starting buffering for 9efbfd55-b35f-4e8d-91e7-ac81b06ba841:31c73962f63e406dba0522d7edbc968e
+[I 19:14:22.505 NotebookApp] Kernel restarted: 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[I 19:14:22.823 NotebookApp] Adapting to protocol v5.1 for kernel 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[I 19:14:22.824 NotebookApp] Restoring connection for 9efbfd55-b35f-4e8d-91e7-ac81b06ba841:31c73962f63e406dba0522d7edbc968e
+[I 19:14:22.824 NotebookApp] Replaying 3 buffered messages
