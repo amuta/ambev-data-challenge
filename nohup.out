@@ -31,3 +31,281 @@
 [I 19:14:22.823 NotebookApp] Adapting to protocol v5.1 for kernel 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
 [I 19:14:22.824 NotebookApp] Restoring connection for 9efbfd55-b35f-4e8d-91e7-ac81b06ba841:31c73962f63e406dba0522d7edbc968e
 [I 19:14:22.824 NotebookApp] Replaying 3 buffered messages
+[I 19:15:23.528 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:17:23.500 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:19:23.494 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:21:23.506 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:23:23.502 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:25:23.503 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:29:24.155 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:31:24.152 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:33:24.149 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:35:23.499 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:39:23.504 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:41:23.502 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:43:24.152 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[W 19:44:08.434 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:44:10.036 NotebookApp] iopub messages resumed
+[W 19:44:12.084 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:44:13.658 NotebookApp] iopub messages resumed
+[W 19:44:15.644 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:44:17.226 NotebookApp] iopub messages resumed
+[W 19:44:19.437 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:44:20.838 NotebookApp] iopub messages resumed
+[W 19:44:23.063 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:44:24.429 NotebookApp] iopub messages resumed
+[I 19:44:26.484 NotebookApp] Kernel interrupted: 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[I 19:45:24.644 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:47:23.489 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:47:39.024 NotebookApp] Kernel interrupted: 9efbfd55-b35f-4e8d-91e7-ac81b06ba841
+[W 19:48:16.517 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:48:18.090 NotebookApp] iopub messages resumed
+[W 19:48:20.114 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:48:21.654 NotebookApp] iopub messages resumed
+[W 19:48:23.887 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:48:25.250 NotebookApp] iopub messages resumed
+[W 19:48:27.291 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:48:28.850 NotebookApp] iopub messages resumed
+[W 19:48:30.884 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:48:32.431 NotebookApp] iopub messages resumed
+[I 19:49:23.514 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:51:23.503 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:53:23.503 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:55:24.155 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:57:23.501 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 19:59:23.506 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:01:23.504 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:03:23.505 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:05:23.502 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+/home/andre/anaconda3/lib/python3.7/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.24) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+[I 20:07:07.893 NotebookApp] Creating new notebook in /notebooks
+[I 20:07:08.504 NotebookApp] Kernel started: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:07:08.847 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:07:23.148 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:07:24.154 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:09:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:11:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:13:09.145 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:14:58.547 NotebookApp] Starting buffering for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:14:58.861 NotebookApp] Kernel restarted: f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:14:59.158 NotebookApp] Adapting to protocol v5.1 for kernel f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:14:59.159 NotebookApp] Restoring connection for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:14:59.159 NotebookApp] Replaying 3 buffered messages
+[I 20:15:01.170 NotebookApp] Starting buffering for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:15:01.381 NotebookApp] Kernel restarted: f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:15:01.679 NotebookApp] Adapting to protocol v5.1 for kernel f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:15:01.680 NotebookApp] Restoring connection for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:15:01.680 NotebookApp] Replaying 6 buffered messages
+[I 20:15:22.834 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:17:22.839 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:19:23.145 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:21:23.509 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:23:23.502 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:25:24.152 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 20:27:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:29:08.512 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:31:08.504 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:31:22.839 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:33:22.839 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:33:37.177 NotebookApp] Starting buffering for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:33:37.491 NotebookApp] Kernel restarted: f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:33:37.852 NotebookApp] Adapting to protocol v5.1 for kernel f517b8f0-8d25-4be4-9292-3cd3db922d89
+[I 20:33:37.853 NotebookApp] Restoring connection for f517b8f0-8d25-4be4-9292-3cd3db922d89:b17773230b3b428184a2b2c8ad42d185
+[I 20:33:37.853 NotebookApp] Replaying 6 buffered messages
+[I 20:35:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:35:23.137 NotebookApp] Saving file at /notebooks/02-modelo-previsao-meta.ipynb
+[I 20:37:08.504 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:39:08.516 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:41:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:43:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:45:08.516 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:47:09.150 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:49:09.149 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:50:30.623 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:50:31.137 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:50:31.454 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:50:31.455 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:50:31.455 NotebookApp] Replaying 6 buffered messages
+[I 20:51:08.521 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:53:08.509 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:53:40.546 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:53:40.960 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:53:41.267 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:53:41.268 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:53:41.268 NotebookApp] Replaying 3 buffered messages
+[I 20:55:09.137 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:55:31.483 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:55:31.897 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:55:32.196 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:55:32.197 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:55:32.197 NotebookApp] Replaying 3 buffered messages
+[I 20:57:08.509 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 20:58:05.670 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:58:06.085 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:58:06.392 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:58:06.393 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:58:06.393 NotebookApp] Replaying 3 buffered messages
+[I 20:58:18.102 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:58:18.515 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:58:18.904 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 20:58:18.905 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 20:58:18.905 NotebookApp] Replaying 6 buffered messages
+[I 20:59:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:01:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:03:09.148 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:05:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:07:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:09:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:11:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:13:09.147 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:15:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:17:09.146 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:19:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:21:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:23:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:25:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:27:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:29:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:31:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:33:08.513 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:34:14.403 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:34:14.818 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:34:15.231 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:34:15.232 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:34:15.232 NotebookApp] Replaying 6 buffered messages
+[I 21:35:08.512 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:36:19.692 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:36:20.105 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:36:20.407 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:36:20.408 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:36:20.408 NotebookApp] Replaying 6 buffered messages
+[I 21:37:08.503 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:37:18.205 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:37:18.619 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:37:18.917 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:37:18.918 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:37:18.918 NotebookApp] Replaying 6 buffered messages
+[I 21:37:47.542 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:37:47.955 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:37:48.249 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:37:48.250 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:37:48.250 NotebookApp] Replaying 3 buffered messages
+[I 21:38:34.141 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:38:34.556 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:38:34.871 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:38:34.872 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:38:34.872 NotebookApp] Replaying 3 buffered messages
+[I 21:39:08.518 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:40:48.471 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:40:48.887 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:40:49.272 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:40:49.272 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:40:49.272 NotebookApp] Replaying 3 buffered messages
+[I 21:41:08.512 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:41:29.567 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:41:29.981 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:41:30.275 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:41:30.276 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:41:30.276 NotebookApp] Replaying 6 buffered messages
+[I 21:41:55.823 NotebookApp] Starting buffering for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:41:56.137 NotebookApp] Kernel restarted: 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:41:56.505 NotebookApp] Adapting to protocol v5.1 for kernel 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6
+[I 21:41:56.506 NotebookApp] Restoring connection for 366199b4-7ac5-4e5a-9dc6-06e4c4c928b6:f7b78bfedbba457782f6a7a8977bd5fc
+[I 21:41:56.506 NotebookApp] Replaying 3 buffered messages
+[I 21:43:08.518 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:45:23.503 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 21:47:08.515 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:47:24.153 NotebookApp] Saving file at /notebooks/01-preparacao-dados.ipynb
+[I 21:49:08.516 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb
+[I 21:51:08.514 NotebookApp] Saving file at /notebooks/03-indo-alem.ipynb

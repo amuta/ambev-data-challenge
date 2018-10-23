@@ -76,6 +76,8 @@ def make_interim(df):
     df = correct_dtypes(df)
     logger.info('cleaning values')
     df = clean_values(df)
+    logger.info('creating new features')
+    df = new_features(df)
     return df
 
 
@@ -133,13 +135,15 @@ def clean_values(df):
     df.mes = df.mes.astype(str).str.extract('(^.*)(?=.{4}$)').astype(int)
     # Encoding errors
     df.loc[df.pais == 'PanamÁ¡', 'pais'] = 'Panama'
-    # Misspelling erros
+    # NLP transforms
     cols = [
         'cargo', 'grupo_cargo', 'area', 'diretoria', 'mundo',
         'area_diretoria', 'funcao', 'banda', 'tipo_meta', 'categoria_kpi',
         'regra_alcance_parcial']
     for col in cols:
         df[col] = df[col].str.lower().str.replace(r'[^\w\s]+', '')
+        df[col] = df[col].str.normalize('NFKD').str.encode(
+            'ascii', errors='ignore').str.decode('utf-8')
 
     # Month cleanup
     df.prazo = df.prazo.astype('str').apply(extract_month)
@@ -164,6 +168,22 @@ def extract_month(text):
     else:
         val = 0
     return val
+
+
+def new_features(df):
+    ''' Create new features
+    '''
+    df['abrev_cargo'] = df.cargo.str[:3]
+    df['abrev_grupo_cargo'] = df.grupo_cargo.str[:3]
+    df['nivel_cargo'] = df.cargo.str.extract(r'([iv]{1,3}$)')
+    df['regra_n1'] = df.regra_alcance_parcial.str.extract(r'(\d{2})')
+    df['regra_n2'] = df.regra_alcance_parcial.str.extract(r'(?:\d{2})(?:.*)(\d{2})')
+    df['regra_n3'] = df.regra_alcance_parcial.str.extract(r'(?:\d{2})(?:.*)(?:\d{2})(?:.*)(\d{2})')
+    df['regra_n4'] = df.regra_alcance_parcial.str.extract(r'(?:\d{2})(?:.*)(?:\d{2})(?:.*)(?:\d{2})(?:.*)(\d{2})')
+    df['regra_real'] = df.regra_alcance_parcial.str.contains('real')
+    df['regra_lacuna'] = df.regra_alcance_parcial.str.contains('lacuna')
+    df['regra_pontosl'] = df.regra_alcance_parcial.str.contains('pontos')
+    return df
 
 
 ######################
@@ -199,10 +219,13 @@ def remove_bad_data(df):
 def make_target(df):
     ''' Make the target variable
     '''
-    df['ating_mes'] = df.ating_mes.astype(np.number)
+    # df['ating_mes'] = df.ating_mes.astype(np.number)
     df['target'] = df.groupby(
-        ['id_funcionario', 'nome_kpi']).ating_mes.transform('mean') / 100
-    df = df.drop('ating_mes', axis=1)
+        ['id_funcionario']).ating_mes.transform('mean') / 100
+    df = df.drop([
+        'mes', 'ating_mes', 'nome_kpi', 'regra_alcance_parcial'],
+        axis=1)
+    
     return df
 
 
@@ -212,6 +235,7 @@ def remove_ids_months(df):
     df = df.groupby(['id_funcionario']).agg('first').reset_index()
     df = df.drop(['id_funcionario', 'id_gestor'], axis=1)  # remove ids
     return df
+
 
 def encode_categoricals(df):
     ''' Encode categorical data
