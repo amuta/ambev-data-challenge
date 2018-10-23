@@ -209,7 +209,7 @@ def remove_bad_data(df):
     # correlated/leaky columns
     col_names = ['ating_acum', 'ating_fim_exer', 'pts_mes', 'pts_acumulado',
                  'pts_fim_exer', 'acum_mes', 'acum_acumulado', 'acum_fim_exer']
-    df = df[df.status_meta.notna()]
+    df = df[df.status_meta == 'Monitoramento Aprovado']
     df = df.fillna(0)
     df = df[df.columns[df.nunique() > 1]]
     df = df.drop(col_names, axis=1)
@@ -223,9 +223,11 @@ def make_target(df):
     df['target'] = df.groupby(
         ['id_funcionario']).ating_mes.transform('mean') / 100
     df = df.drop([
-        'mes', 'ating_mes', 'nome_kpi', 'regra_alcance_parcial'],
+        'mes', 'ating_mes', 'nome_kpi', 'regra_alcance_parcial',
+        'id_kpi', 'categoria_kpi', 'tipo_meta', 'regra_n1', 'meta_projeto',
+       'regra_n2', 'regra_n3', 'regra_n4', 'regra_real', 'regra_lacuna'],
         axis=1)
-    
+
     return df
 
 

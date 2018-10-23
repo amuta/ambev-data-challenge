@@ -47,3 +47,30 @@ def bars(x, y, ylabel, title):
 
     ax.set_xticklabels(ax.get_xticklabels(), rotation = 90)
     plt.show()
+
+def lines(x, y, hue, title):
+    ''' Line plot with custom line widths
+    '''
+    sns.set(style="white", context="talk")
+    f, ax = plt.subplots(figsize=(10, 6))
+    ax = sns.pointplot(x=x,
+                       y=y,
+                       hue=hue,
+                       scale=.6,
+                       errwidth=0.6)
+
+    sns.despine(bottom=True)
+    plt.title(title)
+    ax.legend(bbox_to_anchor=(1.15, 1.05))
+    plt.show()
+
+
+def joint(x, y, title):
+    sns.set(style="white", context="talk")
+    f, ax = plt.subplots(figsize=(10, 6))
+
+    ax = sns.scatterplot(x=x,
+                   y=y)
+    sns.despine(bottom=True)
+    plt.title(title)
+
